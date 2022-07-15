@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F599A25C2881B8CB00F933C5 /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599A25B2881B8CB00F933C5 /* EmojiDetailView.swift */; };
 		F5FB734A28819F1800D57AF1 /* Emoji_dictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB734928819F1800D57AF1 /* Emoji_dictionaryApp.swift */; };
 		F5FB734C28819F1800D57AF1 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB734B28819F1800D57AF1 /* EmojiListView.swift */; };
 		F5FB734E28819F1B00D57AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FB734D28819F1B00D57AF1 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F599A25B2881B8CB00F933C5 /* EmojiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailView.swift; sourceTree = "<group>"; };
 		F5FB734628819F1800D57AF1 /* Emoji-dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji-dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FB734928819F1800D57AF1 /* Emoji_dictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_dictionaryApp.swift; sourceTree = "<group>"; };
 		F5FB734B28819F1800D57AF1 /* EmojiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				F5FB734928819F1800D57AF1 /* Emoji_dictionaryApp.swift */,
 				F5FB734B28819F1800D57AF1 /* EmojiListView.swift */,
+				F599A25B2881B8CB00F933C5 /* EmojiDetailView.swift */,
 				F5FB734D28819F1B00D57AF1 /* Assets.xcassets */,
 				F5FB734F28819F1B00D57AF1 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5FB734C28819F1800D57AF1 /* EmojiListView.swift in Sources */,
+				F599A25C2881B8CB00F933C5 /* EmojiDetailView.swift in Sources */,
 				F5FB734A28819F1800D57AF1 /* Emoji_dictionaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
