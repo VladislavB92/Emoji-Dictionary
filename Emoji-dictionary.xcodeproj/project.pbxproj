@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F57ED1862881DE93007A1C50 /* EmojiGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57ED1852881DE93007A1C50 /* EmojiGridView.swift */; };
+		F57ED1882881E08F007A1C50 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57ED1872881E08F007A1C50 /* Emoji.swift */; };
 		F599A25C2881B8CB00F933C5 /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599A25B2881B8CB00F933C5 /* EmojiDetailView.swift */; };
 		F5FB734A28819F1800D57AF1 /* Emoji_dictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB734928819F1800D57AF1 /* Emoji_dictionaryApp.swift */; };
 		F5FB734C28819F1800D57AF1 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB734B28819F1800D57AF1 /* EmojiListView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F57ED1852881DE93007A1C50 /* EmojiGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGridView.swift; sourceTree = "<group>"; };
+		F57ED1872881E08F007A1C50 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		F599A25B2881B8CB00F933C5 /* EmojiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailView.swift; sourceTree = "<group>"; };
 		F5FB734628819F1800D57AF1 /* Emoji-dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji-dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FB734928819F1800D57AF1 /* Emoji_dictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_dictionaryApp.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		F5FB734828819F1800D57AF1 /* Emoji-dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				F57ED1852881DE93007A1C50 /* EmojiGridView.swift */,
+				F57ED1872881E08F007A1C50 /* Emoji.swift */,
 				F5FB734928819F1800D57AF1 /* Emoji_dictionaryApp.swift */,
 				F5FB734B28819F1800D57AF1 /* EmojiListView.swift */,
 				F599A25B2881B8CB00F933C5 /* EmojiDetailView.swift */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57ED1882881E08F007A1C50 /* Emoji.swift in Sources */,
 				F5FB734C28819F1800D57AF1 /* EmojiListView.swift in Sources */,
 				F599A25C2881B8CB00F933C5 /* EmojiDetailView.swift in Sources */,
 				F5FB734A28819F1800D57AF1 /* Emoji_dictionaryApp.swift in Sources */,
+				F57ED1862881DE93007A1C50 /* EmojiGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
